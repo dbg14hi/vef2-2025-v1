@@ -98,8 +98,8 @@ async function main() {
   await generateIndexHtml(updatedEntries);
 }
 
-const STYLES_SRC = './src/styles.css';  
-const INDEX_CSS_SRC = './src/index.css';  
+const STYLES_SRC = './src/styles/styles.css';  
+const INDEX_CSS_SRC = './src/styles/index.css';  
 const STYLES_DEST = path.join(OUTPUT_DIR, 'styles/styles.css');  
 const INDEX_CSS_DEST = path.join(OUTPUT_DIR, 'styles/index.css');  
 
