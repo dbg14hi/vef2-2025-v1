@@ -13,10 +13,10 @@
     "lint:eslint": "eslint ./src/**/*.js",
     "lint:fix": "eslint .eslintrc.cjs ./src/**/*.js --fix",
     "lint:stylelint": "stylelint \"src/**/*.css\"",
-    "test": "vitest",
-    "test:coverage": "vitest --coverage",
-    "test:watch": "vitest --watch"
-  },
+    "test": "vitest --dir tests",
+    "test:coverage": "vitest --coverage --dir tests",
+    "test:watch": "vitest --watch --dir tests"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",

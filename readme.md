@@ -1,4 +1,4 @@
-# Vefforritun 2 2025, verkefni 
+# Vefforritun 2 2025, verkefni 1
 
 Grunnur/partar af [verkefni 1](https://github.com/vefforritun/vef2-2025-v1) unnir í fyrirlestrartímum.
 

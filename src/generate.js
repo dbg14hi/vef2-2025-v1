@@ -36,7 +36,7 @@ async function writeHtml(filePath, content) {
   }
 }
 
-async function processFile(entry) {
+export async function processFile(entry) {
   const { title, file } = entry;
   const inputFilePath = path.join(INPUT_DIR, file);
 
