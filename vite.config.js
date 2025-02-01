@@ -1,11 +1,9 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  root: 'dist',  // ✅ Serve from /dist
-  server: {
-    port: 5173,
-  },
+  root: 'src', // 👈 Set the root to `src/`
   build: {
-    outDir: 'dist',  // Ensure build output goes to /dist
+    outDir: '../dist', // 👈 Ensures output goes into `dist/`
+    emptyOutDir: true,
   },
 });
