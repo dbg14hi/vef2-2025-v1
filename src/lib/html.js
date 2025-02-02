@@ -80,7 +80,7 @@ export function quizTemplate (data) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>${title}</title>
         <link rel="stylesheet" href="/styles/styles.css">  
-        <script defer src="./scripts/quiz.js"></script> 
+        <script type="module" src="/scripts/quiz.js"></script> 
       </head>
       <body>
       <div class="container">
